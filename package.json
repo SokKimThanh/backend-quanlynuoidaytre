@@ -1,0 +1,31 @@
+{
+  "name": "firtapp",
+  "version": "1.0.0",
+  "description": "Learn Rest API using Express.js and MySQL DB",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "resful",
+    "api"
+  ],
+  "author": "sok kim thanh",
+  "license": "ISC",
+  "devDependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "http-errors": "^1.7.3",
+    "jade": "^1.11.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "morgan": "^1.9.1"
+  }
+}
